@@ -1,0 +1,68 @@
+{
+  "appState": {
+    "nextId": 3,
+    "isLoading": false,
+    "selectedId": 2
+  },
+  "sceneState": {
+    "translate": [0, 0]
+  },
+  "circles": [
+      {
+        "id": 1,
+        "svgAttributes": {
+          "cx": 12,
+          "cy": 23,
+          "r": 45
+        },
+        "style": {
+          "stroke": "red",
+          "strokeWidth": "10",
+          "fill": "blue",
+          "fillOpacity": "0.5"
+        }
+      },
+      {
+        "id": 2,
+        "svgAttributes": {
+          "cx": 67,
+          "cy": 53,
+          "r": 30
+        },
+        "style": {
+          "stroke": "blue",
+          "strokeWidth": "3",
+          "fill": "green",
+          "fillOpacity": "0.2"
+        }
+      }
+  ],
+  "lines": [
+    {
+      "id": 4,
+      "svgAttributes": {
+        "x1": 12,
+        "y1": 23,
+        "x2": 45,
+        "y2": 30
+      },
+      "style": {
+        "stroke": "#555555",
+        "strokeWidth": "2"
+      }
+    }
+  ],
+  "squares": [
+    {
+      "id": 3,
+        "svgAttributes": {
+          "x": 12,
+          "y": 23,
+          "width": 45,
+          "height": 30
+        }
+    }
+  ],
+  "groups": [],
+  "beziers": []
+}
